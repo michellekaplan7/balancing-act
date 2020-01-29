@@ -16,7 +16,7 @@ nav {
 
 body {
   margin-left: 80px;
-  padding: 40px;
+  padding: 20px 40px;
   background-color: #F5F5F5;
 }
 
@@ -31,6 +31,20 @@ nav img {
   width: 600px;
   height: 80px;
   padding: 30px;
+  position: relative;
+}
+
+.welcome img {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 20px;
+  left: 560px;
+}
+
+.welcome p {
+  font-weight: bold;
+  margin: auto;
 }
 
 .blue-button {
@@ -43,6 +57,7 @@ nav img {
   display: inline;
 }
 
+
 td {
   border-bottom: 1px solid #CCCCCC;
   padding: 10px;
@@ -50,18 +65,6 @@ td {
 
 th {
   text-align: left;
-}
-
-.cards {
-  border: solid 2px;
-  width: 70px;
-  display: inline;
-  margin: 30px;
-  padding-left: 10px;
-  padding-right: 40px;
-  padding-top: 5px;
-  padding-bottom: 15px;
-  box-shadow: rgba(0,0,0,0.05);
 }
 
 .account-cards img {
@@ -92,4 +95,22 @@ li {
 ul {
   margin-top: 250px;
   padding: 0px 20px;
+}
+
+.card {
+  border: 1px black solid;
+  width: 180px;
+  display: inline-block;
+  margin-right: 27px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  box-shadow: 4px 4px rgba(0,0,0,0.05);
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+h1 {
+  margin-top: 0px;
 }
