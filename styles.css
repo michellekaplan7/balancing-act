@@ -1,0 +1,95 @@
+* {
+  color: #363636;
+  font-family: Biryani;
+  box-sizing: border-box;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 80px;
+  box-shadow: rgba(0,0,0,0.05);
+  background-color: red;
+}
+
+body {
+  margin-left: 80px;
+  padding: 40px;
+  background-color: #F5F5F5;
+}
+
+nav img {
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+
+.welcome {
+  background: Linear-gradient(to right,#8ED1DC, #E3F4F6);
+  width: 600px;
+  height: 80px;
+  padding: 30px;
+}
+
+.blue-button {
+  color: #FFFFFF;
+  background-color: #1CA3BA;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 5px 10px;
+  display: inline;
+}
+
+td {
+  border-bottom: 1px solid #CCCCCC;
+  padding: 10px;
+}
+
+th {
+  text-align: left;
+}
+
+.cards {
+  border: solid 2px;
+  width: 70px;
+  display: inline;
+  margin: 30px;
+  padding-left: 10px;
+  padding-right: 40px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  box-shadow: rgba(0,0,0,0.05);
+}
+
+.account-cards img {
+  width: 20px;
+  height: 20px;
+}
+
+#elephant {
+  margin: 5px auto;
+  height: 70px;
+  width: 70px;
+}
+
+.button-nav {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+h2 {
+  display: inline;
+}
+
+li {
+  list-style-type: none;
+  padding-bottom: 20px;
+}
+
+ul {
+  margin-top: 250px;
+  padding: 0px 20px;
+}
