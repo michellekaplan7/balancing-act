@@ -72,6 +72,13 @@ h1 {
   margin: auto;
 }
 
+.welcome,
+.card,
+section.account-cards,
+aside {
+  box-shadow: 4px 4px rgba(0,0,0,0.05);
+}
+
 .blue-button {
   color: #FFFFFF;
   background-color: #1CA3BA;
@@ -89,7 +96,6 @@ h1 {
   margin-top: 20px;
   margin-bottom: 20px;
   text-transform: uppercase;
-  box-shadow: 4px 4px rgba(0,0,0,0.05);
   background-color: #FFFFFF;
   border-radius: 5px;
   padding-left: 10px;
