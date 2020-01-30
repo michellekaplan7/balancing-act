@@ -1,6 +1,4 @@
 * {
-  color: #363636;
-  font-family: Biryani;
   box-sizing: border-box;
 }
 
@@ -11,19 +9,47 @@ nav {
   height: 100%;
   width: 80px;
   box-shadow: rgba(0,0,0,0.05);
-  background-color: red;
-}
-
-body {
-  margin-left: 80px;
-  padding: 20px 40px;
-  background-color: #F5F5F5;
+  background-color: #FFFFFF;
 }
 
 nav img {
   width: 40px;
   height: 40px;
   display: block;
+}
+
+.button-nav {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+#elephant {
+  margin: 5px auto;
+  height: 70px;
+  width: 70px;
+}
+
+li {
+  list-style-type: none;
+  padding-bottom: 20px;
+}
+
+ul {
+  margin-top: 250px;
+  padding: 0px 20px;
+}
+
+body {
+  color: #363636;
+  font-family: Biryani;
+  margin-left: 80px;
+  padding: 20px 40px;
+  background-color: #F5F5F5;
+  font-weight: bold;
+}
+
+h1 {
+  margin-top: 0px;
 }
 
 .welcome {
@@ -43,7 +69,6 @@ nav img {
 }
 
 .welcome p {
-  font-weight: bold;
   margin: auto;
 }
 
@@ -55,46 +80,6 @@ nav img {
   border-radius: 10px;
   padding: 5px 10px;
   display: inline;
-}
-
-
-td {
-  border-bottom: 1px solid #CCCCCC;
-  padding: 10px;
-}
-
-th {
-  text-align: left;
-}
-
-.account-cards img {
-  width: 20px;
-  height: 20px;
-}
-
-#elephant {
-  margin: 5px auto;
-  height: 70px;
-  width: 70px;
-}
-
-.button-nav {
-  background-color: transparent;
-  border-color: transparent;
-}
-
-h2 {
-  display: inline;
-}
-
-li {
-  list-style-type: none;
-  padding-bottom: 20px;
-}
-
-ul {
-  margin-top: 250px;
-  padding: 0px 20px;
 }
 
 .card {
@@ -111,6 +96,68 @@ ul {
   padding-left: 10px;
 }
 
-h1 {
-  margin-top: 0px;
+.account-cards img {
+  width: 30px;
+  height: 30px;
+}
+
+section.accounts-header {
+  position: relative;
+  width: 600px;
+  border: black 1px solid;
+  margin-bottom: 15px;
+}
+
+button.blue-button {
+  position: absolute;
+  top: 29px;
+  right: 0px;
+}
+
+section.account-cards {
+  border: 1px solid black;
+  background-color: #FFFFFF;
+  width: 600px;
+  margin-bottom: 15px;
+  position: relative;
+  padding: 15px;
+}
+
+p.account-name {
+  position: absolute;
+  top: 0px;
+  right: 350px;
+}
+
+p.account-type {
+  position: absolute;
+  top: 0px;
+  right: 80px;
+}
+
+section.recent-transactions-header {
+  position: relative;
+  width: 600px;
+  border: black 1px solid;
+  margin-bottom: 15px;
+}
+
+td {
+  border-bottom: 1px solid #CCCCCC;
+  padding: 10px;
+}
+
+th {
+  text-align: left;
+}
+
+aside {
+  position: absolute;
+  top: 97px;
+  right: 80px;
+  background-color: #FFFFFF;
+}
+
+table {
+  width: 600px;
 }
