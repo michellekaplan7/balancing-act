@@ -83,7 +83,6 @@ h1 {
 }
 
 .card {
-  border: 1px black solid;
   width: 180px;
   display: inline-block;
   margin-right: 27px;
@@ -104,41 +103,41 @@ h1 {
 section.accounts-header {
   position: relative;
   width: 600px;
-  border: black 1px solid;
+  height: 60px;
   margin-bottom: 15px;
 }
 
 button.blue-button {
   position: absolute;
-  top: 29px;
+  top: 12px;
   right: 0px;
 }
 
 section.account-cards {
-  border: 1px solid black;
   background-color: #FFFFFF;
   width: 600px;
+  height: 50px;
   margin-bottom: 15px;
   position: relative;
-  padding: 15px;
+  padding: 10px;
 }
 
 p.account-name {
   position: absolute;
   top: 0px;
-  right: 350px;
+  left: 130px;
 }
 
 p.account-type {
   position: absolute;
   top: 0px;
-  right: 80px;
+  left: 450px;
 }
 
 section.recent-transactions-header {
   position: relative;
   width: 600px;
-  border: black 1px solid;
+  height: 60px;
   margin-bottom: 15px;
 }
 
@@ -149,15 +148,17 @@ td {
 
 th {
   text-align: left;
+  padding: 7px;
 }
 
 aside {
   position: absolute;
-  top: 97px;
+  top: 105px;
   right: 80px;
   background-color: #FFFFFF;
 }
 
 table {
   width: 600px;
+  border-collapse: collapse;
 }
