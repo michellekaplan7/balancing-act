@@ -3,19 +3,19 @@
 }
 
 nav {
+  background-color: #FFFFFF;
+  box-shadow: rgba(0, 0, 0, 0.05);
+  height: 100%;
+  left: 0;
   position: fixed;
   top: 0;
-  left: 0;
-  height: 100%;
   width: 80px;
-  box-shadow: rgba(0,0,0,0.05);
-  background-color: #FFFFFF;
 }
 
 nav img {
-  width: 40px;
-  height: 40px;
   display: block;
+  height: 40px;
+  width: 40px;
 }
 
 .button-nav {
@@ -24,8 +24,8 @@ nav img {
 }
 
 #elephant {
-  margin: 5px auto;
   height: 70px;
+  margin: 5px auto;
   width: 70px;
 }
 
@@ -40,12 +40,12 @@ ul {
 }
 
 body {
+  background-color: #F5F5F5;
   color: #363636;
   font-family: Biryani;
+  font-weight: bold;
   margin-left: 80px;
   padding: 20px 40px;
-  background-color: #F5F5F5;
-  font-weight: bold;
 }
 
 h1 {
@@ -53,20 +53,20 @@ h1 {
 }
 
 .welcome {
-  background: Linear-gradient(to right,#8ED1DC, #E3F4F6);
-  width: 600px;
+  background: Linear-gradient(to right, #8ED1DC, #E3F4F6);
   height: 80px;
+  margin-bottom: 20px;
   padding: 30px;
   position: relative;
-  margin-bottom: 20px;
+  width: 600px;
 }
 
 .welcome img {
-  width: 10px;
   height: 10px;
+  left: 560px;
   position: absolute;
   top: 20px;
-  left: 560px;
+  width: 10px;
 }
 
 .welcome p {
@@ -77,75 +77,79 @@ h1 {
 .card,
 section.account-cards,
 aside {
-  box-shadow: 4px 4px rgba(0,0,0,0.05);
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.05);
 }
 
 .blue-button {
-  color: #FFFFFF;
   background-color: #1CA3BA;
-  text-transform: uppercase;
-  font-weight: bold;
   border-radius: 10px;
-  padding: 5px 10px;
+  color: #FFFFFF;
   display: inline;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+.table-button {
+  margin-right: 20px;
 }
 
 .card {
-  width: 180px;
-  display: inline-block;
-  margin-right: 27px;
-  margin-top: 0px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
   background-color: #FFFFFF;
   border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-right: 27px;
+  margin-top: 0px;
   padding-left: 10px;
+  text-transform: uppercase;
+  width: 180px;
 }
 
 .account-cards img {
-  width: 30px;
   height: 30px;
+  width: 30px;
 }
 
 section.accounts-header {
-  position: relative;
-  width: 600px;
   height: 60px;
   margin-bottom: 15px;
+  position: relative;
+  width: 600px;
 }
 
 button.blue-button {
   position: absolute;
-  top: 12px;
   right: 0px;
+  top: 12px;
 }
 
 section.account-cards {
   background-color: #FFFFFF;
-  width: 600px;
   height: 50px;
   margin-bottom: 15px;
-  position: relative;
   padding: 10px;
+  position: relative;
+  width: 600px;
 }
 
 p.account-name {
+  left: 130px;
   position: absolute;
   top: 0px;
-  left: 130px;
 }
 
 p.account-type {
+  left: 450px;
   position: absolute;
   top: 0px;
-  left: 450px;
 }
 
 section.recent-transactions-header {
-  position: relative;
-  width: 600px;
   height: 60px;
   margin-bottom: 15px;
+  position: relative;
+  width: 600px;
 }
 
 td {
@@ -154,18 +158,18 @@ td {
 }
 
 th {
-  text-align: left;
   padding: 7px;
+  text-align: left;
 }
 
 aside {
-  position: absolute;
-  top: 105px;
-  right: 80px;
   background-color: #FFFFFF;
+  position: absolute;
+  right: 80px;
+  top: 105px;
 }
 
 table {
-  width: 600px;
   border-collapse: collapse;
+  width: 600px;
 }
