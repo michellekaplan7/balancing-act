@@ -58,6 +58,7 @@ h1 {
   height: 80px;
   padding: 30px;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .welcome img {
@@ -93,7 +94,7 @@ aside {
   width: 180px;
   display: inline-block;
   margin-right: 27px;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 20px;
   text-transform: uppercase;
   background-color: #FFFFFF;
