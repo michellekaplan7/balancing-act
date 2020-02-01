@@ -39,6 +39,10 @@ ul {
   padding: 0px 20px;
 }
 
+.blue-border {
+  border-left: 2px solid #1CA3BA;
+}
+
 body {
   background-color: #F5F5F5;
   color: #363636;
