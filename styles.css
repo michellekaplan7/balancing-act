@@ -211,7 +211,6 @@ table {
 
 .transaction-table {
   background-color: #FFFFFF;
-  border: solid 1px black;
   display: inline-block;
   float: left;
   width: 600px;
@@ -219,7 +218,6 @@ table {
 
 .new-transaction-form {
   background-color: #FFFFFF;
-  border: solid 1px black;
   float: right;
   height: 730px;
   margin-right: 40px;
