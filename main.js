@@ -8,31 +8,33 @@ var allButton = document.querySelector('.all-button')
 var inflowButton = document.querySelector('.inflow-button')
 var outflowButton = document.querySelector('.outflow-button')
 var whiteButton = document.querySelector('.white-button');
+var navButtons = document.querySelector('.nav-buttons');
 
-
-closeButton.addEventListener('click', closeWelcome);
-walletIcon.addEventListener('click', addWalletBoarder);
-dashboardIcon.addEventListener('click', addDashboardBoarder);
 inflowButton.addEventListener('click', changeInflowButtonColor);
 outflowButton.addEventListener('click', changeOutflowButtonColor);
 allButton.addEventListener('click', changeAllButtonColor);
+closeButton.addEventListener('click', closeWelcome);
+navButtons.addEventListener('click', function(event) {
+  changePage(event);
+});
+
+function changePage(event) {
+  if (event.target === walletIcon) {
+    addBorder(walletIcon, transactionsPage, dashboardIcon, main);
+  } else if (event.target === dashboardIcon) {
+    addBorder(dashboardIcon, main, walletIcon, transactionsPage);
+  }
+}
+
+function addBorder(icon, page, icon2, page2) {
+  icon.classList.add('blue-border');
+  icon2.classList.remove('blue-border');
+  page2.classList.add('hide');
+  page.classList.remove('hide');
+}
 
 function closeWelcome() {
   welcomeBannerDisappear.style.display = "none";
-}
-
-function addWalletBoarder() {
-  walletIcon.classList.add('blue-border');
-  dashboardIcon.classList.remove('blue-border');
-  main.classList.add('hide');
-  transactionsPage.classList.remove('hide');
-}
-
-function addDashboardBoarder() {
-  dashboardIcon.classList.add('blue-border');
-  walletIcon.classList.remove('blue-border');
-  main.classList.remove('hide');
-  transactionsPage.classList.add('hide');
 }
 
 function changeInflowButtonColor() {
@@ -51,3 +53,20 @@ function changeAllButtonColor() {
   outflowButton.classList.remove('white-button-clicked');
   inflowButton.classList.remove('white-button-clicked');
 }
+
+// walletIcon.addEventListener('click', addWalletBoarder);
+// dashboardIcon.addEventListener('click', addDashboardBoarder);
+
+// function addWalletBoarder() {
+//   walletIcon.classList.add('blue-border');
+//   dashboardIcon.classList.remove('blue-border');
+//   main.classList.add('hide');
+//   transactionsPage.classList.remove('hide');
+// }
+//
+// function addDashboardBoarder() {
+//   dashboardIcon.classList.add('blue-border');
+//   walletIcon.classList.remove('blue-border');
+//   main.classList.remove('hide');
+//   transactionsPage.classList.add('hide');
+// }
